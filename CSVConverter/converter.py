@@ -73,5 +73,5 @@ class CSVConverter:
 
 if __name__ == "__main__":
     x = CSVConverter(data='student-por.csv', separator=';')
-    x.to_mysql(table_name='students', user='root', password='DotaL1fe', host='localhost', db='test')
+    x.to_mysql(table_name='students', user='root', password='', host='localhost', db='test')
     x.to_sqlite(db='stud', table_name='students')
